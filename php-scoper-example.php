@@ -4,6 +4,11 @@ use Otomaties\PhpScoperExample\Plugin;
 
 /*
  * Plugin Name: PHP Scoper Example
+ * Plugin URI:      https://github.com/tombroucke/wp-plugin-php-scoper-example
+ * Description:     This is an example WordPress plugin that correctly prefixes its dependencies
+ * Author:          Tom Broucke
+ * Author URI:      https://tombroucke.be
+ * Version:         1.0.0
  */
 
 if (! defined('ABSPATH')) {

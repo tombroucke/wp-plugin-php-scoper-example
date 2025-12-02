@@ -1,5 +1,5 @@
 {
-  "name": "tombroucke/php-scoper-example",
+  "name": "tombroucke/wp-plugin-php-scoper-example",
   "type": "wordpress-plugin",
   "version": "1.0.0",
   "autoload": {

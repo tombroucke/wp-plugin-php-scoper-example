@@ -46,6 +46,7 @@ To add dependencies, you can add them in `extra.require-scoped` in `composer.jso
 3. Copy the build scripts from `composer.json`, replace `PhpScoperExampleVendor` with your custom vendor namespace
 4. Add your dependencies in `extra.require-scoped` in `composer.json`
 5. Run `composer build`
+6. Find & replace the namespaces in your plugin. (`use Illuminate\Support\Collection` > `use PhpScoperExampleVendor\Illuminate\Support\Collection`)
 
 ## FAQ
 

@@ -14,7 +14,7 @@ To install this example plugin you can run
 composer require tombroucke/wp-plugin-php-scoper-example
 ```
 
-Alternatively, you can clone this repo and put it in your plugins directory.
+Alternatively, you can download the zipfile and place it in your `(app|wp-content)/plugins`.
 
 ## Building vendor_prefixed
 

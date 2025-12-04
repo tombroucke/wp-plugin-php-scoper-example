@@ -31,7 +31,7 @@
       "vendor/bin/phpstan analyze --memory-limit 512M"
     ],
     "build:php": [
-      "./scoper.sh -p PhpScoperExampleVendor"
+      "./scoper.sh"
     ]
   }
 }

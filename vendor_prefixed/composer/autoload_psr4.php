@@ -6,8 +6,8 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'PhpScoperExampleVendor\\Symfony\\Polyfill\\Php85\\' => array($vendorDir . '/symfony/polyfill-php85'),
-    'PhpScoperExampleVendor\\Symfony\\Polyfill\\Php84\\' => array($vendorDir . '/symfony/polyfill-php84'),
+    'Symfony\\Polyfill\\Php85\\' => array($vendorDir . '/symfony/polyfill-php85'),
+    'Symfony\\Polyfill\\Php84\\' => array($vendorDir . '/symfony/polyfill-php84'),
     'PhpScoperExampleVendor\\Psr\\SimpleCache\\' => array($vendorDir . '/psr/simple-cache/src'),
     'PhpScoperExampleVendor\\Psr\\Log\\' => array($vendorDir . '/psr/log/src'),
     'PhpScoperExampleVendor\\Psr\\Container\\' => array($vendorDir . '/psr/container/src'),

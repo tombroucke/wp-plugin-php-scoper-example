@@ -1,7 +1,10 @@
 # WP Plugin PHP scoper example
 
-This example plugin shows how you can introduce [PHP-Scoper](https://github.com/humbug/php-scoper) to your WordPress plugin. In this project, PHP-scoper will prefix all dependencies.
+This example plugin shows how you can introduce [PHP-Scoper](https://github.com/humbug/php-scoper) to your WordPress plugin.
+
+In this project, PHP-scoper will prefix all dependencies.
 We build a `vendor_prefixed` directory that contains all the prefixed dependencies. devDependencies will be installed to the `vendor` directory, so we can run tests (`composer test`).
+As the scoped dependencies are not in the `composer.json` `require` list, this plugin can be installed alongside other version of dependencies. E.g. if your root `composer.json` requires `psr/log ^1` or `psr/log ^3`, you will still be able to install this plugin.
 
 ## See it in action
 

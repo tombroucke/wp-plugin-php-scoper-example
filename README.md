@@ -22,6 +22,7 @@ Alternatively, you can download the zipfile and place it in your `(app|wp-conten
 
 - **jq** (`brew install jq`)
 - **php-scoper** (`composer global require humbug/php-scoper`)
+- **php-scoper** should be an alias to the php-executable (probably `~/.composer/vendor/bin/php-scoper`). Alternatively, you could replace `php-scoper add-prefix` with the path to php-scoper: `~/.composer/vendor/bin/php-scoper add-prefix`
 
 ### Run the build script
 
